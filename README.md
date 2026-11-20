@@ -21,6 +21,10 @@ Job posting ─► Parser ─► Job JSON ─┘                ├─► Cover 
 
 Each stage is a separate, focused prompt. Output is requested as JSON and retried if it is malformed.
 
+This app runs locally (it uses Ollama), so there is no public website.
+After running `streamlit run app.py`, open: http://localhost:8501
+
+
 ## Requirements
 
 - Python 3.9+
